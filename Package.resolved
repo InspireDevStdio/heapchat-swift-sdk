@@ -15,7 +15,16 @@
       "location" : "https://github.com/InspireDevStdio/ExyteChat.git",
       "state" : {
         "branch" : "old",
-        "revision" : "76aaf6a484e56f73d76a2464abed4ed9d12c3c14"
+        "revision" : "d95c097d1122e6194558bc811d4c68e45bb197dc"
+      }
+    },
+    {
+      "identity" : "exytemediapicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/InspireDevStdio/ExyteMediaPicker",
+      "state" : {
+        "branch" : "old",
+        "revision" : "bb43da20d91f4e1953ffbb9863740fc495901806"
       }
     },
     {
@@ -23,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Giphy/giphy-ios-sdk",
       "state" : {
-        "revision" : "9a3970c258ef5cc005f9359ba4c6a344fe062abe",
-        "version" : "2.2.15"
+        "revision" : "37f5b1ff6cf8bc4a78c0bc5eb1b814381bac9580",
+        "version" : "2.2.16"
       }
     },
     {
@@ -34,15 +43,6 @@
       "state" : {
         "revision" : "0d60654eeefd5d7d2bef3835804892c40225e8b2",
         "version" : "1.5.0"
-      }
-    },
-    {
-      "identity" : "mediapicker",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/exyte/MediaPicker.git",
-      "state" : {
-        "revision" : "6f8745755530209462b60445ec4ba332c3058474",
-        "version" : "2.2.4"
       }
     },
     {
