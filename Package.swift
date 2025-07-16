@@ -17,11 +17,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/InspireDevStdio/ExyteChat.git",
-            branch: "old"
+            exact: "1.0.0"
         ),
         .package(
             url: "https://github.com/socketio/socket.io-client-swift",
-            from: "16.1.1"
+            exact: "16.1.1"
         )
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heap.chat_swift-sdk/releases/download/1.0.9/HeapchatSDK.xcframework.zip",
-            checksum: "8a70a0e1cdc6720369d9e9c73052c8946a39b2282afe4ec78baeb357598b4afb"
+            url: "https://github.com/InspireDevStdio/heap.chat_swift-sdk/releases/download/1.1.0/HeapchatSDK.xcframework.zip",
+            checksum: "efb15cb1bcc85247551571d802c26946a312781e33364d02e42bc8bd564e6c54"
         ),
     ]
 )
