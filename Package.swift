@@ -16,12 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/InspireDevStdio/ExyteChat.git",
-            exact: "1.1.2"
-        ),
-        .package(
-            url: "https://github.com/socketio/socket.io-client-swift",
-            exact: "16.1.1"
+            url: "https://github.com/Giphy/giphy-ios-sdk",
+            exact: "2.2.16"
         )
     ],
     targets: [
@@ -29,15 +25,14 @@ let package = Package(
             name: "HeapchatSDKTarget",
             dependencies: [
                 "HeapchatSDK",
-                .product(name: "ExyteChat", package: "ExyteChat"),
-                .product(name: "SocketIO", package: "socket.io-client-swift")
+                .product(name: "GiphyUISDK", package: "giphy-ios-sdk")
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.10/HeapchatSDK.xcframework.zip",
-            checksum: "02fb17a49867c4e97675a6e8c6240008436f9ec302ae223225d5da5af2ad238e"
+            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.11/HeapchatSDK.xcframework.zip",
+            checksum: "92c58459b7fa9c043f593a3bb64a154cb6149fec6759e06019d5b8b8ca9c684c"
         ),
     ]
 )
