@@ -5,8 +5,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/InspireDevStdio/ExyteActivityIndicator",
       "state" : {
-        "branch" : "old",
-        "revision" : "86d8f8321fd9f844a6667dd5832648d2c864ac0d"
+        "revision" : "86d8f8321fd9f844a6667dd5832648d2c864ac0d",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "exyteanchoredpopup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/InspireDevStdio/ExyteAnchoredPopup.git",
+      "state" : {
+        "revision" : "fb473055132149fcb4304de747f6faad3d76e5d7",
+        "version" : "1.0.2"
       }
     },
     {
@@ -14,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/InspireDevStdio/ExyteChat.git",
       "state" : {
-        "branch" : "old",
-        "revision" : "e446686434f221b188e734d2b3227840adef61b2"
+        "revision" : "9793b1c5496591075a3dd2e5dbbf2eac6f2ee3eb",
+        "version" : "1.1.2"
       }
     },
     {
@@ -23,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/InspireDevStdio/ExyteMediaPicker",
       "state" : {
-        "branch" : "old",
-        "revision" : "bb43da20d91f4e1953ffbb9863740fc495901806"
+        "revision" : "39aff7298be0602f0f56b8dab1e8508620b8fa23",
+        "version" : "1.0.5"
       }
     },
     {
@@ -34,6 +43,15 @@
       "state" : {
         "revision" : "37f5b1ff6cf8bc4a78c0bc5eb1b814381bac9580",
         "version" : "2.2.16"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "cf8be20d07654570554c8a8a4952bc8a5766a8b0",
+        "version" : "8.9.0"
       }
     },
     {

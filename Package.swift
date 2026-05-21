@@ -6,18 +6,26 @@ import PackageDescription
 let package = Package(
     name: "HeapchatSDK",
     platforms: [
-        .iOS(.v16),
-        .macOS(.v13)
+        .iOS(.v16)
     ],
     products: [
         .library(
             name: "HeapchatSDK",
-            targets: ["HeapchatSDKTarget"]),
+            targets: ["HeapchatSDK"]
+        ),
     ],
     dependencies: [
         .package(
             url: "https://github.com/InspireDevStdio/ExyteChat.git",
             exact: "1.1.2"
+        ),
+        .package(
+            url: "https://github.com/InspireDevStdio/ExyteMediaPicker",
+            exact: "1.0.5"
+        ),
+        .package(
+            url: "https://github.com/InspireDevStdio/ExyteActivityIndicator",
+            exact: "1.0.0"
         ),
         .package(
             url: "https://github.com/socketio/socket.io-client-swift",
@@ -26,18 +34,14 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "HeapchatSDKTarget",
+            name: "HeapchatSDK",
             dependencies: [
-                "HeapchatSDK",
                 .product(name: "ExyteChat", package: "ExyteChat"),
+                .product(name: "ExyteMediaPicker", package: "ExyteMediaPicker"),
+                .product(name: "ExyteActivityIndicator", package: "ExyteActivityIndicator"),
                 .product(name: "SocketIO", package: "socket.io-client-swift")
             ],
-            path: "Sources"
-        ),
-        .binaryTarget(
-            name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.10/HeapchatSDK.xcframework.zip",
-            checksum: "02fb17a49867c4e97675a6e8c6240008436f9ec302ae223225d5da5af2ad238e"
+            path: "Sources/HeapchatSDK"
         ),
     ]
 )
