@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.12/HeapchatSDK.xcframework.zip",
-            checksum: "614788cab5faf3289789fe6caf7dda015f61c1f4b58ddd5462e11d7955b90c4f"
+            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.13/HeapchatSDK.xcframework.zip",
+            checksum: "4432306d658af43ad05e096c3416d25b5c7955206f7bfdbfe63194ed7d3b51de"
         ),
     ]
 )
