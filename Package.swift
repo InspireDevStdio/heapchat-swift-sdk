@@ -16,12 +16,16 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/InspireDevStdio/ExyteChat.git",
-            exact: "1.1.2"
+            url: "https://github.com/Giphy/giphy-ios-sdk",
+            exact: "2.2.16"
         ),
         .package(
-            url: "https://github.com/socketio/socket.io-client-swift",
-            exact: "16.1.1"
+            url: "https://github.com/InspireDevStdio/ExyteChat",
+            exact: "1.1.1"
+        ),
+        .package(
+            url: "https://github.com/InspireDevStdio/ExyteMediaPicker",
+            exact: "1.0.2"
         )
     ],
     targets: [
@@ -29,15 +33,16 @@ let package = Package(
             name: "HeapchatSDKTarget",
             dependencies: [
                 "HeapchatSDK",
+                .product(name: "GiphyUISDK", package: "giphy-ios-sdk"),
                 .product(name: "ExyteChat", package: "ExyteChat"),
-                .product(name: "SocketIO", package: "socket.io-client-swift")
+                .product(name: "ExyteMediaPicker", package: "ExyteMediaPicker")
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heap.chat_swift-sdk/releases/download/1.2.8/HeapchatSDK.xcframework.zip",
-            checksum: "631c12be62ce512231a2d4ff7541944d2668ffb3f4e91fbc0da54c0e4ee33e29"
+            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.16/HeapchatSDK.xcframework.zip",
+            checksum: "951b3531dbd146cea2874608c3f2934ae736e8787e4267d93f394e554582a96e"
         ),
     ]
 )
