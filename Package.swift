@@ -21,11 +21,11 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/InspireDevStdio/ExyteChat",
-            exact: "1.1.1"
+            exact: "1.1.3"
         ),
         .package(
             url: "https://github.com/InspireDevStdio/ExyteMediaPicker",
-            exact: "1.0.2"
+            exact: "1.0.6"
         )
     ],
     targets: [
@@ -41,8 +41,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HeapchatSDK",
-            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.18/HeapchatSDK.xcframework.zip",
-            checksum: "c0c67dc6857761f518543fec25a98c809bcaf4b727bb595ce8e8e270aeb7bc85"
+            url: "https://github.com/InspireDevStdio/heapchat-swift-sdk/releases/download/1.2.19/HeapchatSDK.xcframework.zip",
+            checksum: "db86b1ca2cd11619869d70c6e3f2728e80037f4ede5ec1af5a6c2e4baec18a15"
         ),
     ]
 )

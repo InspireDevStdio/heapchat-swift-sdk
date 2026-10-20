@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/InspireDevStdio/ExyteChat.git",
       "state" : {
-        "revision" : "1c79c9b58e24c39ae4548945b780e4fefae00842",
-        "version" : "1.1.1"
+        "revision" : "1d8482212bea455ca03d09c2078e2fdf153b761a",
+        "version" : "1.1.3"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/InspireDevStdio/ExyteMediaPicker",
       "state" : {
-        "revision" : "657245fa40a99df7f0c861128cdf175c79a29ce2",
-        "version" : "1.0.2"
+        "revision" : "6e255d2b78ee8470f6055d7a5cfef25f77a89064",
+        "version" : "1.0.6"
       }
     },
     {
